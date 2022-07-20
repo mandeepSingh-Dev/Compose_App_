@@ -12,7 +12,7 @@ import com.mandeep.compose_app_.Screens.ScreenTwo
 @Composable
 fun setUpNavGraph(navHostController: NavHostController)
 {
-    NavHost(navController = navHostController, startDestination = "Screen1"){
+    NavHost(navController = navHostController, startDestination = "ScreenOne"){
 
         composable("ScreenOne"){
             ScreenOne(navHostController)
